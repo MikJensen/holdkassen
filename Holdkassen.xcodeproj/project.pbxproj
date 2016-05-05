@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52ECFDBC1CDBBCC200ABF9CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ECFDBB1CDBBCC200ABF9CC /* AppDelegate.swift */; };
+		52ECFDBE1CDBBCC200ABF9CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ECFDBD1CDBBCC200ABF9CC /* ViewController.swift */; };
+		52ECFDC11CDBBCC200ABF9CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52ECFDBF1CDBBCC200ABF9CC /* Main.storyboard */; };
+		52ECFDC31CDBBCC200ABF9CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52ECFDC21CDBBCC200ABF9CC /* Assets.xcassets */; };
+		52ECFDC61CDBBCC200ABF9CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52ECFDC41CDBBCC200ABF9CC /* LaunchScreen.storyboard */; };
+		52ECFDD11CDBBCC200ABF9CC /* HoldkassenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ECFDD01CDBBCC200ABF9CC /* HoldkassenTests.swift */; };
+		52ECFDDC1CDBBCC200ABF9CC /* HoldkassenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ECFDDB1CDBBCC200ABF9CC /* HoldkassenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52ECFDCD1CDBBCC200ABF9CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52ECFDB01CDBBCC200ABF9CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52ECFDB71CDBBCC200ABF9CC;
+			remoteInfo = Holdkassen;
+		};
+		52ECFDD81CDBBCC200ABF9CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52ECFDB01CDBBCC200ABF9CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52ECFDB71CDBBCC200ABF9CC;
+			remoteInfo = Holdkassen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52ECFDB81CDBBCC200ABF9CC /* Holdkassen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Holdkassen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52ECFDBB1CDBBCC200ABF9CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52ECFDBD1CDBBCC200ABF9CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52ECFDC01CDBBCC200ABF9CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52ECFDC21CDBBCC200ABF9CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52ECFDC51CDBBCC200ABF9CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52ECFDC71CDBBCC200ABF9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52ECFDCC1CDBBCC200ABF9CC /* HoldkassenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoldkassenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52ECFDD01CDBBCC200ABF9CC /* HoldkassenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldkassenTests.swift; sourceTree = "<group>"; };
+		52ECFDD21CDBBCC200ABF9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52ECFDD71CDBBCC200ABF9CC /* HoldkassenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoldkassenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52ECFDDB1CDBBCC200ABF9CC /* HoldkassenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldkassenUITests.swift; sourceTree = "<group>"; };
+		52ECFDDD1CDBBCC200ABF9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52ECFDB51CDBBCC200ABF9CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ECFDC91CDBBCC200ABF9CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ECFDD41CDBBCC200ABF9CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52ECFDAF1CDBBCC200ABF9CC = {
+			isa = PBXGroup;
+			children = (
+				52ECFDBA1CDBBCC200ABF9CC /* Holdkassen */,
+				52ECFDCF1CDBBCC200ABF9CC /* HoldkassenTests */,
+				52ECFDDA1CDBBCC200ABF9CC /* HoldkassenUITests */,
+				52ECFDB91CDBBCC200ABF9CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52ECFDB91CDBBCC200ABF9CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52ECFDB81CDBBCC200ABF9CC /* Holdkassen.app */,
+				52ECFDCC1CDBBCC200ABF9CC /* HoldkassenTests.xctest */,
+				52ECFDD71CDBBCC200ABF9CC /* HoldkassenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52ECFDBA1CDBBCC200ABF9CC /* Holdkassen */ = {
+			isa = PBXGroup;
+			children = (
+				52ECFDBB1CDBBCC200ABF9CC /* AppDelegate.swift */,
+				52ECFDBD1CDBBCC200ABF9CC /* ViewController.swift */,
+				52ECFDBF1CDBBCC200ABF9CC /* Main.storyboard */,
+				52ECFDC21CDBBCC200ABF9CC /* Assets.xcassets */,
+				52ECFDC41CDBBCC200ABF9CC /* LaunchScreen.storyboard */,
+				52ECFDC71CDBBCC200ABF9CC /* Info.plist */,
+			);
+			path = Holdkassen;
+			sourceTree = "<group>";
+		};
+		52ECFDCF1CDBBCC200ABF9CC /* HoldkassenTests */ = {
+			isa = PBXGroup;
+			children = (
+				52ECFDD01CDBBCC200ABF9CC /* HoldkassenTests.swift */,
+				52ECFDD21CDBBCC200ABF9CC /* Info.plist */,
+			);
+			path = HoldkassenTests;
+			sourceTree = "<group>";
+		};
+		52ECFDDA1CDBBCC200ABF9CC /* HoldkassenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52ECFDDB1CDBBCC200ABF9CC /* HoldkassenUITests.swift */,
+				52ECFDDD1CDBBCC200ABF9CC /* Info.plist */,
+			);
+			path = HoldkassenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52ECFDB71CDBBCC200ABF9CC /* Holdkassen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52ECFDE01CDBBCC200ABF9CC /* Build configuration list for PBXNativeTarget "Holdkassen" */;
+			buildPhases = (
+				52ECFDB41CDBBCC200ABF9CC /* Sources */,
+				52ECFDB51CDBBCC200ABF9CC /* Frameworks */,
+				52ECFDB61CDBBCC200ABF9CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Holdkassen;
+			productName = Holdkassen;
+			productReference = 52ECFDB81CDBBCC200ABF9CC /* Holdkassen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52ECFDCB1CDBBCC200ABF9CC /* HoldkassenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52ECFDE31CDBBCC200ABF9CC /* Build configuration list for PBXNativeTarget "HoldkassenTests" */;
+			buildPhases = (
+				52ECFDC81CDBBCC200ABF9CC /* Sources */,
+				52ECFDC91CDBBCC200ABF9CC /* Frameworks */,
+				52ECFDCA1CDBBCC200ABF9CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52ECFDCE1CDBBCC200ABF9CC /* PBXTargetDependency */,
+			);
+			name = HoldkassenTests;
+			productName = HoldkassenTests;
+			productReference = 52ECFDCC1CDBBCC200ABF9CC /* HoldkassenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52ECFDD61CDBBCC200ABF9CC /* HoldkassenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52ECFDE61CDBBCC200ABF9CC /* Build configuration list for PBXNativeTarget "HoldkassenUITests" */;
+			buildPhases = (
+				52ECFDD31CDBBCC200ABF9CC /* Sources */,
+				52ECFDD41CDBBCC200ABF9CC /* Frameworks */,
+				52ECFDD51CDBBCC200ABF9CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52ECFDD91CDBBCC200ABF9CC /* PBXTargetDependency */,
+			);
+			name = HoldkassenUITests;
+			productName = HoldkassenUITests;
+			productReference = 52ECFDD71CDBBCC200ABF9CC /* HoldkassenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52ECFDB01CDBBCC200ABF9CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mik Jensen";
+				TargetAttributes = {
+					52ECFDB71CDBBCC200ABF9CC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					52ECFDCB1CDBBCC200ABF9CC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 52ECFDB71CDBBCC200ABF9CC;
+					};
+					52ECFDD61CDBBCC200ABF9CC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 52ECFDB71CDBBCC200ABF9CC;
+					};
+				};
+			};
+			buildConfigurationList = 52ECFDB31CDBBCC200ABF9CC /* Build configuration list for PBXProject "Holdkassen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52ECFDAF1CDBBCC200ABF9CC;
+			productRefGroup = 52ECFDB91CDBBCC200ABF9CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52ECFDB71CDBBCC200ABF9CC /* Holdkassen */,
+				52ECFDCB1CDBBCC200ABF9CC /* HoldkassenTests */,
+				52ECFDD61CDBBCC200ABF9CC /* HoldkassenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52ECFDB61CDBBCC200ABF9CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ECFDC61CDBBCC200ABF9CC /* LaunchScreen.storyboard in Resources */,
+				52ECFDC31CDBBCC200ABF9CC /* Assets.xcassets in Resources */,
+				52ECFDC11CDBBCC200ABF9CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ECFDCA1CDBBCC200ABF9CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ECFDD51CDBBCC200ABF9CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52ECFDB41CDBBCC200ABF9CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ECFDBE1CDBBCC200ABF9CC /* ViewController.swift in Sources */,
+				52ECFDBC1CDBBCC200ABF9CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ECFDC81CDBBCC200ABF9CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ECFDD11CDBBCC200ABF9CC /* HoldkassenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ECFDD31CDBBCC200ABF9CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ECFDDC1CDBBCC200ABF9CC /* HoldkassenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52ECFDCE1CDBBCC200ABF9CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52ECFDB71CDBBCC200ABF9CC /* Holdkassen */;
+			targetProxy = 52ECFDCD1CDBBCC200ABF9CC /* PBXContainerItemProxy */;
+		};
+		52ECFDD91CDBBCC200ABF9CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52ECFDB71CDBBCC200ABF9CC /* Holdkassen */;
+			targetProxy = 52ECFDD81CDBBCC200ABF9CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52ECFDBF1CDBBCC200ABF9CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52ECFDC01CDBBCC200ABF9CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52ECFDC41CDBBCC200ABF9CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52ECFDC51CDBBCC200ABF9CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52ECFDDE1CDBBCC200ABF9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52ECFDDF1CDBBCC200ABF9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52ECFDE11CDBBCC200ABF9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Holdkassen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mj.mobile.Holdkassen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52ECFDE21CDBBCC200ABF9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Holdkassen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mj.mobile.Holdkassen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52ECFDE41CDBBCC200ABF9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HoldkassenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mj.mobile.HoldkassenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Holdkassen.app/Holdkassen";
+			};
+			name = Debug;
+		};
+		52ECFDE51CDBBCC200ABF9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HoldkassenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mj.mobile.HoldkassenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Holdkassen.app/Holdkassen";
+			};
+			name = Release;
+		};
+		52ECFDE71CDBBCC200ABF9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HoldkassenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mj.mobile.HoldkassenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Holdkassen;
+			};
+			name = Debug;
+		};
+		52ECFDE81CDBBCC200ABF9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HoldkassenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mj.mobile.HoldkassenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Holdkassen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52ECFDB31CDBBCC200ABF9CC /* Build configuration list for PBXProject "Holdkassen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52ECFDDE1CDBBCC200ABF9CC /* Debug */,
+				52ECFDDF1CDBBCC200ABF9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52ECFDE01CDBBCC200ABF9CC /* Build configuration list for PBXNativeTarget "Holdkassen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52ECFDE11CDBBCC200ABF9CC /* Debug */,
+				52ECFDE21CDBBCC200ABF9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52ECFDE31CDBBCC200ABF9CC /* Build configuration list for PBXNativeTarget "HoldkassenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52ECFDE41CDBBCC200ABF9CC /* Debug */,
+				52ECFDE51CDBBCC200ABF9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52ECFDE61CDBBCC200ABF9CC /* Build configuration list for PBXNativeTarget "HoldkassenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52ECFDE71CDBBCC200ABF9CC /* Debug */,
+				52ECFDE81CDBBCC200ABF9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52ECFDB01CDBBCC200ABF9CC /* Project object */;
+}
